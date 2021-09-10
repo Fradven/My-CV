@@ -1,1 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #EEDEBE;
+}
 
+body {
+  max-width: 1000px;
+  margin: auto;
+}
+
+header {
+  background-color: #EAE8D5;
+  display: grid;
+  grid-template-columns: 3fr 3fr;
+}
+.tiny {
+  font-size: 80%
+
+}
+
+.desc {
+  font-size: 87%
+
+}
