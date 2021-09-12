@@ -6,20 +6,15 @@
 
 body {
   max-width: 1000px;
-  margin: auto;
+  margin:0 auto;
 }
 
 header {
-  background-color: #EAE8D5;
-  display: grid;
-  grid-template-columns: 3fr 3fr;
-}
-.tiny {
-  font-size: 80%
-
+  display: flex;
+  justify-content: space-between;
 }
 
-.desc {
-  font-size: 87%
-
+.image img {
+  object-fit: cover;
+  border-radius: 20%;
 }
